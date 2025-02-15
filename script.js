@@ -318,7 +318,7 @@ const pensadores = [// Sociologia
     },
     {
         nome: "Emmy Noether",
-        foto: "imagens/noether.png",
+        foto: "imagens/noeter.png",
         pergunta: "O que é simetria?",
         opcoes: ["Beleza", "Conservação", "Equilíbrio"],
         respostas: [
