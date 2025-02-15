@@ -404,7 +404,7 @@ const pensadores = [// Sociologia
     },
     {
         nome: "Carl Sagan",
-        foto: "imagens/sagan.png",
+        foto: "imagens/Sagan.png",
         pergunta: "Estamos sozinhos no universo?",
         opcoes: ["Sim", "Não", "Talvez"],
         respostas: [
