@@ -1,0 +1,110 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    /* Fundo preto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    /* Texto branco para melhor contraste */
+}
+
+#game-container {
+    width: 80%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    /* Fundo semi-transparente para o container */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    /* Sombra clara para destacar */
+    overflow: hidden;
+    text-align: center;
+}
+
+#pensador-info {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* Altura ajustável ao conteúdo */
+    display: flex;
+    flex-direction: column;
+    /* Coloca os elementos em coluna */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* Espaçamento interno */
+    background-color: #111;
+    /* Fundo escuro para destacar */
+}
+
+#pensador-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    /* Borda branca para destacar a imagem */
+}
+
+#pensador-nome {
+    margin-top: 10px;
+    /* Espaço entre a imagem e o nome */
+    color: white;
+    /* Cor do texto */
+    font-size: 18px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Negrito para destacar */
+}
+
+#pergunta-container {
+    padding: 20px;
+    background-image: url('background.jpg');
+    /* Substitua por uma imagem relevante */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* Texto branco para melhor contraste */
+}
+
+#opcoes {
+    margin-top: 20px;
+}
+
+.opcao {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #007bff;
+    /* Botões azuis */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opcao:hover {
+    background-color: #0056b3;
+    /* Efeito de hover nos botões */
+}
+
+#resposta-container {
+    padding: 20px;
+    background-color: #111;
+    /* Fundo escuro para a área de resposta */
+    color: white;
+    /* Texto branco para melhor contraste */
+}
+
+#pontuacao {
+    padding: 10px;
+    background-color: #333;
+    /* Fundo mais escuro para a pontuação */
+    color: white;
+    /* Texto branco para melhor contraste */
+}
