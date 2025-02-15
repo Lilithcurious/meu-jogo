@@ -113,7 +113,7 @@ const pensadores = [// Sociologia
     // Filosofia
     {
         nome: "Sócrates",
-        foto: "imagens/socrates.jpg",
+        foto: "imagens/socrates.png",
         pergunta: "O que é mais importante: sabedoria ou riqueza?",
         opcoes: ["Sabedoria", "Riqueza", "Ambos"],
         respostas: [
@@ -197,7 +197,7 @@ const pensadores = [// Sociologia
     },
     {
         nome: "Simone de Beauvoir",
-        foto: "imagens/beauvoir.jpg",
+        foto: "imagens/beauvoir.png",
         pergunta: "Por que as mulheres são subjugadas?",
         opcoes: ["Patriarcado", "Educação", "Biologia"],
         respostas: [
@@ -209,7 +209,7 @@ const pensadores = [// Sociologia
     },
     {
         nome: "Michel Foucault",
-        foto: "imagens/foucault.jpg",
+        foto: "imagens/foucault.png",
         pergunta: "O poder está em todos os lugares?",
         opcoes: ["Sim", "Não", "Depende"],
         respostas: [
@@ -221,7 +221,7 @@ const pensadores = [// Sociologia
     },
     {
         nome: "Hannah Arendt",
-        foto: "imagens/arendt.jpg",
+        foto: "imagens/arendt.png",
         pergunta: "O que é o mal banal?",
         opcoes: ["Ignorância", "Obediência cega", "Falta de empatia"],
         respostas: [
